@@ -12,6 +12,7 @@ using FontAwesome.Sharp;
 
 using CapaEntidad;
 using CapaNegocio;
+using SistemaVentasPresentacion.Modales;
 namespace SistemaVentasPresentacion
 {
     public partial class Inicio : Form
@@ -96,7 +97,7 @@ namespace SistemaVentasPresentacion
 
         private void submenuregistrarventa_Click(object sender, EventArgs e)
         {
-            AbrirFormulario(menuventas, new frmVentas());
+            AbrirFormulario(menuventas, new frmVentas(usuarioActual));
         }
 
         private void submenuverdetalle_Click(object sender, EventArgs e)
@@ -123,15 +124,33 @@ namespace SistemaVentasPresentacion
         {
             AbrirFormulario((IconMenuItem)sender, new frmClientes());
         }
-
-        private void menureportes_Click(object sender, EventArgs e)
-        {
-            AbrirFormulario((IconMenuItem)sender, new frmReportes());
-        }
-
         private void submenunegocio_Click(object sender, EventArgs e)
         {
             AbrirFormulario(menuinventario, new frmNegocio());
+        }
+
+        private void submenureportecompras_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(menureportes, new frmReporteCompras());
+        }
+
+        private void submenureporteventas_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(menureportes, new frmReporteVentas());
+        }
+
+        private void menuacerca_Click(object sender, EventArgs e)
+        {
+            mdAcercade md = new mdAcercade();
+            md.ShowDialog();
+        }
+
+        private void btnsalir_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("¿Desea salir?","Mensaje",MessageBoxButtons.YesNo,MessageBoxIcon.Question)== DialogResult.Yes)
+            {
+                this.Close();
+            }
         }
     }
 }

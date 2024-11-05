@@ -212,7 +212,7 @@
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label1);
             this.Name = "frmNegocio";
-            this.Text = "frmNegocio";
+            this.Text = "Negocio";
             this.Load += new System.EventHandler(this.frmNegocio_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

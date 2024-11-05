@@ -15,6 +15,7 @@ namespace SistemaVentasPresentacion.Modales
 {
     public partial class mdCliente : Form
     {
+        public Cliente _Cliente {  get; set; }
         public mdCliente()
         {
             InitializeComponent();
@@ -35,6 +36,51 @@ namespace SistemaVentasPresentacion.Modales
 
             foreach (Cliente item in lista)
             {
+                if (item.Estado)
+                    dgvdata.Rows.Add(new object[] {item.Documento, item.NombreCompleto});
+            }
+        }
+
+        private void dgvdata_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            int iRow = e.RowIndex;
+            int iColum = e.ColumnIndex;
+
+            if (iRow >= 0 && iColum > 0)
+            {
+                _Cliente = new Cliente()
+                {
+                    Documento = dgvdata.Rows[iRow].Cells["Documento"].Value.ToString(),
+                    NombreCompleto = dgvdata.Rows[iRow].Cells["NombreCompleto"].Value.ToString()
+                };
+                this.DialogResult = DialogResult.OK;
+                this.Close();
+            }
+        }
+
+        private void btnbuscar_Click(object sender, EventArgs e)
+        {
+            string columnaFiltro = ((OpcionCombo)cbobusqueda.SelectedItem).Valor.ToString();
+
+            if (dgvdata.Rows.Count > 0)
+            {
+                foreach (DataGridViewRow row in dgvdata.Rows)
+                {
+                    if (row.Cells[columnaFiltro].Value.ToString().Trim().ToUpper().Contains(txtbusqueda.Text.Trim().ToUpper()))
+                        row.Visible = true;
+                    else
+                        row.Visible = false;
+                }
+            }
+        }
+
+        private void btnlimpiarbuscador_Click(object sender, EventArgs e)
+        {
+            txtbusqueda.Text = "";
+
+            foreach (DataGridViewRow row in dgvdata.Rows)
+            {
+                row.Visible = true;
             }
         }
     }

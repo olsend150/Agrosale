@@ -37,6 +37,7 @@
             this.label4 = new System.Windows.Forms.Label();
             this.btningresar = new FontAwesome.Sharp.IconButton();
             this.btncancelar = new FontAwesome.Sharp.IconButton();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -78,14 +79,14 @@
             // 
             // txtdocumento
             // 
-            this.txtdocumento.Location = new System.Drawing.Point(260, 67);
+            this.txtdocumento.Location = new System.Drawing.Point(279, 90);
             this.txtdocumento.Name = "txtdocumento";
             this.txtdocumento.Size = new System.Drawing.Size(278, 22);
             this.txtdocumento.TabIndex = 3;
             // 
             // txtclave
             // 
-            this.txtclave.Location = new System.Drawing.Point(260, 143);
+            this.txtclave.Location = new System.Drawing.Point(279, 166);
             this.txtclave.Name = "txtclave";
             this.txtclave.PasswordChar = '*';
             this.txtclave.Size = new System.Drawing.Size(278, 22);
@@ -96,7 +97,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(256, 43);
+            this.label3.Location = new System.Drawing.Point(275, 66);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(66, 21);
             this.label3.TabIndex = 5;
@@ -107,7 +108,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(256, 119);
+            this.label4.Location = new System.Drawing.Point(275, 142);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(94, 21);
             this.label4.TabIndex = 6;
@@ -151,11 +152,22 @@
             this.btncancelar.UseVisualStyleBackColor = false;
             this.btncancelar.Click += new System.EventHandler(this.btncancelar_Click);
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Tai Le", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(346, 9);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(161, 26);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "INICIAR SESIÓN";
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(604, 267);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.btncancelar);
             this.Controls.Add(this.btningresar);
             this.Controls.Add(this.label4);
@@ -187,5 +199,6 @@
         private System.Windows.Forms.Label label4;
         private FontAwesome.Sharp.IconButton btningresar;
         private FontAwesome.Sharp.IconButton btncancelar;
+        private System.Windows.Forms.Label label5;
     }
 }

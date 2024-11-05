@@ -301,6 +301,7 @@ namespace SistemaVentasPresentacion
             }
             int idcorrelativo = new CN_Compra().ObtenerCorrelativo();
             string numerodocumento = string.Format("{0:00000}", idcorrelativo);
+
             Compra oCompra = new Compra()
             {
                 oUsuario = new Usuario() { IdUsuario = _Usuario.IdUsuario },

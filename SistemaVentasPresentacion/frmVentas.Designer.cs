@@ -33,16 +33,16 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.btnbuscarproveedor = new FontAwesome.Sharp.IconButton();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtfecha = new System.Windows.Forms.TextBox();
             this.cbotipodocumento = new System.Windows.Forms.ComboBox();
-            this.txtdocumentocliente = new System.Windows.Forms.TextBox();
+            this.txtfecha = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.txtnombrecliente = new System.Windows.Forms.TextBox();
+            this.txtdocumentocliente = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.btnbuscarproveedor = new FontAwesome.Sharp.IconButton();
+            this.label5 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.label11 = new System.Windows.Forms.Label();
             this.txtcantidad = new System.Windows.Forms.NumericUpDown();
@@ -58,14 +58,14 @@
             this.txtcodproducto = new System.Windows.Forms.TextBox();
             this.btnagregarproducto = new FontAwesome.Sharp.IconButton();
             this.dgvdata = new System.Windows.Forms.DataGridView();
-            this.txttotalpagar = new System.Windows.Forms.TextBox();
-            this.label12 = new System.Windows.Forms.Label();
             this.IdProducto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Producto = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Precio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Cantidad = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SubTotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btneliminar = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.txttotalpagar = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
             this.txtpagocon = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.txtcambio = new System.Windows.Forms.TextBox();
@@ -112,6 +112,41 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Información de venta";
             // 
+            // cbotipodocumento
+            // 
+            this.cbotipodocumento.FormattingEnabled = true;
+            this.cbotipodocumento.Location = new System.Drawing.Point(200, 55);
+            this.cbotipodocumento.Name = "cbotipodocumento";
+            this.cbotipodocumento.Size = new System.Drawing.Size(219, 24);
+            this.cbotipodocumento.TabIndex = 28;
+            // 
+            // txtfecha
+            // 
+            this.txtfecha.Location = new System.Drawing.Point(12, 57);
+            this.txtfecha.Name = "txtfecha";
+            this.txtfecha.Size = new System.Drawing.Size(144, 22);
+            this.txtfecha.TabIndex = 2;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.ForeColor = System.Drawing.Color.Black;
+            this.label4.Location = new System.Drawing.Point(197, 36);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(127, 16);
+            this.label4.TabIndex = 1;
+            this.label4.Text = "Tipo de documento:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.Black;
+            this.label3.Location = new System.Drawing.Point(9, 38);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(48, 16);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Fecha:";
+            // 
             // groupBox2
             // 
             this.groupBox2.BackColor = System.Drawing.Color.White;
@@ -127,35 +162,30 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Información de cliente";
             // 
-            // label3
+            // txtnombrecliente
             // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.Black;
-            this.label3.Location = new System.Drawing.Point(9, 38);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(48, 16);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Fecha:";
+            this.txtnombrecliente.Location = new System.Drawing.Point(255, 56);
+            this.txtnombrecliente.Name = "txtnombrecliente";
+            this.txtnombrecliente.Size = new System.Drawing.Size(240, 22);
+            this.txtnombrecliente.TabIndex = 30;
             // 
-            // label4
+            // txtdocumentocliente
             // 
-            this.label4.AutoSize = true;
-            this.label4.ForeColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(197, 36);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(127, 16);
-            this.label4.TabIndex = 1;
-            this.label4.Text = "Tipo de documento:";
+            this.txtdocumentocliente.Location = new System.Drawing.Point(17, 57);
+            this.txtdocumentocliente.Name = "txtdocumentocliente";
+            this.txtdocumentocliente.Size = new System.Drawing.Size(163, 22);
+            this.txtdocumentocliente.TabIndex = 29;
             // 
-            // label5
+            // label6
             // 
-            this.label5.AutoSize = true;
-            this.label5.ForeColor = System.Drawing.Color.Black;
-            this.label5.Location = new System.Drawing.Point(17, 38);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(147, 16);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Numero de documento:";
+            this.label6.AutoSize = true;
+            this.label6.ForeColor = System.Drawing.Color.Black;
+            this.label6.Location = new System.Drawing.Point(252, 36);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(118, 16);
+            this.label6.TabIndex = 28;
+            this.label6.Text = "Nombre completo:";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // btnbuscarproveedor
             // 
@@ -175,46 +205,17 @@
             this.btnbuscarproveedor.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnbuscarproveedor.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnbuscarproveedor.UseVisualStyleBackColor = false;
+            this.btnbuscarproveedor.Click += new System.EventHandler(this.btnbuscarproveedor_Click);
             // 
-            // label6
+            // label5
             // 
-            this.label6.AutoSize = true;
-            this.label6.ForeColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(252, 36);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(118, 16);
-            this.label6.TabIndex = 28;
-            this.label6.Text = "Nombre completo:";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
-            // txtfecha
-            // 
-            this.txtfecha.Location = new System.Drawing.Point(12, 57);
-            this.txtfecha.Name = "txtfecha";
-            this.txtfecha.Size = new System.Drawing.Size(144, 22);
-            this.txtfecha.TabIndex = 2;
-            // 
-            // cbotipodocumento
-            // 
-            this.cbotipodocumento.FormattingEnabled = true;
-            this.cbotipodocumento.Location = new System.Drawing.Point(200, 55);
-            this.cbotipodocumento.Name = "cbotipodocumento";
-            this.cbotipodocumento.Size = new System.Drawing.Size(219, 24);
-            this.cbotipodocumento.TabIndex = 28;
-            // 
-            // txtdocumentocliente
-            // 
-            this.txtdocumentocliente.Location = new System.Drawing.Point(17, 57);
-            this.txtdocumentocliente.Name = "txtdocumentocliente";
-            this.txtdocumentocliente.Size = new System.Drawing.Size(163, 22);
-            this.txtdocumentocliente.TabIndex = 29;
-            // 
-            // txtnombrecliente
-            // 
-            this.txtnombrecliente.Location = new System.Drawing.Point(255, 56);
-            this.txtnombrecliente.Name = "txtnombrecliente";
-            this.txtnombrecliente.Size = new System.Drawing.Size(240, 22);
-            this.txtnombrecliente.TabIndex = 30;
+            this.label5.AutoSize = true;
+            this.label5.ForeColor = System.Drawing.Color.Black;
+            this.label5.Location = new System.Drawing.Point(17, 38);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(147, 16);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Numero de documento:";
             // 
             // groupBox3
             // 
@@ -293,6 +294,7 @@
             this.txtprecio.Name = "txtprecio";
             this.txtprecio.Size = new System.Drawing.Size(124, 22);
             this.txtprecio.TabIndex = 31;
+            this.txtprecio.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtprecio_KeyPress);
             // 
             // label7
             // 
@@ -330,6 +332,7 @@
             this.btnbuscarproducto.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnbuscarproducto.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnbuscarproducto.UseVisualStyleBackColor = false;
+            this.btnbuscarproducto.Click += new System.EventHandler(this.btnbuscarproducto_Click);
             // 
             // txtproducto
             // 
@@ -365,6 +368,7 @@
             this.txtcodproducto.Name = "txtcodproducto";
             this.txtcodproducto.Size = new System.Drawing.Size(147, 22);
             this.txtcodproducto.TabIndex = 26;
+            this.txtcodproducto.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtcodproducto_KeyDown);
             // 
             // btnagregarproducto
             // 
@@ -381,6 +385,7 @@
             this.btnagregarproducto.Text = "Agregar";
             this.btnagregarproducto.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnagregarproducto.UseVisualStyleBackColor = false;
+            this.btnagregarproducto.Click += new System.EventHandler(this.btnagregarproducto_Click);
             // 
             // dgvdata
             // 
@@ -419,24 +424,8 @@
             this.dgvdata.RowTemplate.Height = 28;
             this.dgvdata.Size = new System.Drawing.Size(832, 235);
             this.dgvdata.TabIndex = 29;
-            // 
-            // txttotalpagar
-            // 
-            this.txttotalpagar.Location = new System.Drawing.Point(1115, 315);
-            this.txttotalpagar.Name = "txttotalpagar";
-            this.txttotalpagar.Size = new System.Drawing.Size(117, 22);
-            this.txttotalpagar.TabIndex = 35;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.White;
-            this.label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label12.Location = new System.Drawing.Point(1117, 296);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(91, 16);
-            this.label12.TabIndex = 34;
-            this.label12.Text = "Total a pagar:";
+            this.dgvdata.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvdata_CellContentClick);
+            this.dgvdata.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dgvdata_CellPainting);
             // 
             // IdProducto
             // 
@@ -487,12 +476,32 @@
             this.btneliminar.ReadOnly = true;
             this.btneliminar.Width = 30;
             // 
+            // txttotalpagar
+            // 
+            this.txttotalpagar.Location = new System.Drawing.Point(1115, 315);
+            this.txttotalpagar.Name = "txttotalpagar";
+            this.txttotalpagar.Size = new System.Drawing.Size(117, 22);
+            this.txttotalpagar.TabIndex = 35;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.White;
+            this.label12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label12.Location = new System.Drawing.Point(1117, 296);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(91, 16);
+            this.label12.TabIndex = 34;
+            this.label12.Text = "Total a pagar:";
+            // 
             // txtpagocon
             // 
             this.txtpagocon.Location = new System.Drawing.Point(1115, 372);
             this.txtpagocon.Name = "txtpagocon";
             this.txtpagocon.Size = new System.Drawing.Size(117, 22);
             this.txtpagocon.TabIndex = 37;
+            this.txtpagocon.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtpagocon_KeyDown);
+            this.txtpagocon.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtpagocon_KeyPress);
             // 
             // label13
             // 
@@ -503,7 +512,8 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(68, 16);
             this.label13.TabIndex = 36;
-            this.label13.Text = "Pago con:";
+            this.label13.Text = "Paga con:";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // txtcambio
             // 
@@ -542,6 +552,7 @@
             this.btnregistrar.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnregistrar.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnregistrar.UseVisualStyleBackColor = false;
+            this.btnregistrar.Click += new System.EventHandler(this.btnregistrar_Click);
             // 
             // frmVentas
             // 
@@ -563,7 +574,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "frmVentas";
-            this.Text = "frmVentas";
+            this.Text = "Ventas";
             this.Load += new System.EventHandler(this.frmVentas_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

@@ -396,7 +396,7 @@
             this.Controls.Add(this.label1);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Name = "frmDetalleCompra";
-            this.Text = "frmDetalleCompra";
+            this.Text = "Detalle Compra";
             this.Load += new System.EventHandler(this.frmDetalleCompra_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

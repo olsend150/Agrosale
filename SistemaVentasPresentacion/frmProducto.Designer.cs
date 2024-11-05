@@ -567,7 +567,7 @@
             this.Controls.Add(this.label12);
             this.Controls.Add(this.label1);
             this.Name = "frmProducto";
-            this.Text = "frmProducto";
+            this.Text = "Producto";
             this.Load += new System.EventHandler(this.frmProducto_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvdata)).EndInit();
             this.ResumeLayout(false);

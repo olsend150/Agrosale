@@ -40,6 +40,8 @@
             this.submenuproducto = new FontAwesome.Sharp.IconMenuItem();
             this.submenunegocio = new System.Windows.Forms.ToolStripMenuItem();
             this.menureportes = new FontAwesome.Sharp.IconMenuItem();
+            this.submenureportecompras = new System.Windows.Forms.ToolStripMenuItem();
+            this.submenureporteventas = new System.Windows.Forms.ToolStripMenuItem();
             this.menuusuarios = new FontAwesome.Sharp.IconMenuItem();
             this.menuclientes = new FontAwesome.Sharp.IconMenuItem();
             this.menuproveedores = new FontAwesome.Sharp.IconMenuItem();
@@ -50,6 +52,7 @@
             this.lbusuario = new System.Windows.Forms.Label();
             this.lblusuario = new System.Windows.Forms.Label();
             this.submenuverdetalleventa = new FontAwesome.Sharp.IconMenuItem();
+            this.btnsalir = new FontAwesome.Sharp.IconButton();
             this.menu.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -196,6 +199,9 @@
             // menureportes
             // 
             this.menureportes.AutoSize = false;
+            this.menureportes.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.submenureportecompras,
+            this.submenureporteventas});
             this.menureportes.Font = new System.Drawing.Font("Segoe Print", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.menureportes.IconChar = FontAwesome.Sharp.IconChar.ChartColumn;
             this.menureportes.IconColor = System.Drawing.Color.Black;
@@ -205,7 +211,20 @@
             this.menureportes.Name = "menureportes";
             this.menureportes.Size = new System.Drawing.Size(140, 52);
             this.menureportes.Text = "Reportes";
-            this.menureportes.Click += new System.EventHandler(this.menureportes_Click);
+            // 
+            // submenureportecompras
+            // 
+            this.submenureportecompras.Name = "submenureportecompras";
+            this.submenureportecompras.Size = new System.Drawing.Size(229, 28);
+            this.submenureportecompras.Text = "Reporte de Compras";
+            this.submenureportecompras.Click += new System.EventHandler(this.submenureportecompras_Click);
+            // 
+            // submenureporteventas
+            // 
+            this.submenureporteventas.Name = "submenureporteventas";
+            this.submenureporteventas.Size = new System.Drawing.Size(229, 28);
+            this.submenureporteventas.Text = "Reporte de Ventas";
+            this.submenureporteventas.Click += new System.EventHandler(this.submenureporteventas_Click);
             // 
             // menuusuarios
             // 
@@ -261,6 +280,7 @@
             this.menuacerca.Name = "menuacerca";
             this.menuacerca.Size = new System.Drawing.Size(140, 52);
             this.menuacerca.Text = "Acerca de";
+            this.menuacerca.Click += new System.EventHandler(this.menuacerca_Click);
             // 
             // menuTitulo
             // 
@@ -329,12 +349,29 @@
             this.submenuverdetalleventa.Size = new System.Drawing.Size(224, 28);
             this.submenuverdetalleventa.Text = "Detalle Venta";
             // 
+            // btnsalir
+            // 
+            this.btnsalir.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(234)))), ((int)(((byte)(250)))), ((int)(((byte)(241)))));
+            this.btnsalir.FlatAppearance.BorderColor = System.Drawing.Color.Red;
+            this.btnsalir.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.btnsalir.IconChar = FontAwesome.Sharp.IconChar.SignOut;
+            this.btnsalir.IconColor = System.Drawing.Color.Black;
+            this.btnsalir.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.btnsalir.Location = new System.Drawing.Point(27, 537);
+            this.btnsalir.Name = "btnsalir";
+            this.btnsalir.Padding = new System.Windows.Forms.Padding(0, 4, 0, 0);
+            this.btnsalir.Size = new System.Drawing.Size(75, 54);
+            this.btnsalir.TabIndex = 6;
+            this.btnsalir.UseVisualStyleBackColor = false;
+            this.btnsalir.Click += new System.EventHandler(this.btnsalir_Click);
+            // 
             // Inicio
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(1482, 603);
+            this.Controls.Add(this.btnsalir);
             this.Controls.Add(this.lblusuario);
             this.Controls.Add(this.lbusuario);
             this.Controls.Add(this.contenedor);
@@ -344,7 +381,6 @@
             this.MainMenuStrip = this.menu;
             this.Name = "Inicio";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = ",";
             this.Load += new System.EventHandler(this.Inicio_Load);
             this.menu.ResumeLayout(false);
             this.menu.PerformLayout();
@@ -377,6 +413,9 @@
         private FontAwesome.Sharp.IconMenuItem submenuverdetallecompra;
         private FontAwesome.Sharp.IconMenuItem submenuverdetalleventa;
         private System.Windows.Forms.ToolStripMenuItem submenunegocio;
+        private System.Windows.Forms.ToolStripMenuItem submenureportecompras;
+        private System.Windows.Forms.ToolStripMenuItem submenureporteventas;
+        private FontAwesome.Sharp.IconButton btnsalir;
     }
 }
 

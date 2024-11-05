@@ -81,3 +81,8 @@ C:\Users\Olsend\source\repos\SistemaVentas\SistemaVentasPresentacion\bin\Debug\i
 C:\Users\Olsend\source\repos\SistemaVentas\SistemaVentasPresentacion\bin\Debug\itextsharp.xmlworker.dll
 C:\Users\Olsend\source\repos\SistemaVentas\SistemaVentasPresentacion\bin\Debug\BouncyCastle.Cryptography.xml
 C:\Users\Olsend\source\repos\SistemaVentas\SistemaVentasPresentacion\bin\Debug\itextsharp.xml
+C:\Users\Olsend\source\repos\SistemaVentas\SistemaVentasPresentacion\obj\Debug\SistemaVentasPresentacion.Modales.mdCliente.resources
+C:\Users\Olsend\source\repos\SistemaVentas\SistemaVentasPresentacion\obj\Debug\SistemaVentasPresentacion.frmDetalleVenta.resources
+C:\Users\Olsend\source\repos\SistemaVentas\SistemaVentasPresentacion\obj\Debug\SistemaVentasPresentacion.frmReporteCompras.resources
+C:\Users\Olsend\source\repos\SistemaVentas\SistemaVentasPresentacion\obj\Debug\SistemaVentasPresentacion.frmReporteVentas.resources
+C:\Users\Olsend\source\repos\SistemaVentas\SistemaVentasPresentacion\obj\Debug\SistemaVentasPresentacion.Modales.mdAcercade.resources

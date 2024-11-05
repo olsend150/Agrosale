@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Olsend\\source\\repos\\SistemaVentas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6987B594-C2D6-4E04-942D-3B609B258981}|SistemaVentasPresentacion\\SistemaVentasPresentacion.csproj|c:\\users\\olsend\\source\\repos\\sistemaventas\\sistemaventaspresentacion\\modales\\mdcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6987B594-C2D6-4E04-942D-3B609B258981}|SistemaVentasPresentacion\\SistemaVentasPresentacion.csproj|solutionrelative:sistemaventaspresentacion\\modales\\mdcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8C9B3BAA-DEA9-4AC3-A05E-46690D886862}|CapaDatos\\CapaDatos.csproj|c:\\users\\olsend\\source\\repos\\sistemaventas\\capadatos\\cd_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8C9B3BAA-DEA9-4AC3-A05E-46690D886862}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\cd_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6987B594-C2D6-4E04-942D-3B609B258981}|SistemaVentasPresentacion\\SistemaVentasPresentacion.csproj|c:\\users\\olsend\\source\\repos\\sistemaventas\\sistemaventaspresentacion\\modales\\mdproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6987B594-C2D6-4E04-942D-3B609B258981}|SistemaVentasPresentacion\\SistemaVentasPresentacion.csproj|solutionrelative:sistemaventaspresentacion\\modales\\mdproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{104B1270-0718-4AF5-8D89-9090913EB8D8}|CapaEntidad\\CapaEntidad.csproj|C:\\Users\\Olsend\\source\\repos\\SistemaVentas\\capaentidad\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{104B1270-0718-4AF5-8D89-9090913EB8D8}|CapaEntidad\\CapaEntidad.csproj|solutionrelative:capaentidad\\cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6987B594-C2D6-4E04-942D-3B609B258981}|SistemaVentasPresentacion\\SistemaVentasPresentacion.csproj|c:\\users\\olsend\\source\\repos\\sistemaventas\\sistemaventaspresentacion\\modales\\mdcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6987B594-C2D6-4E04-942D-3B609B258981}|SistemaVentasPresentacion\\SistemaVentasPresentacion.csproj|solutionrelative:sistemaventaspresentacion\\modales\\mdcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6987B594-C2D6-4E04-942D-3B609B258981}|SistemaVentasPresentacion\\SistemaVentasPresentacion.csproj|c:\\users\\olsend\\source\\repos\\sistemaventas\\sistemaventaspresentacion\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6987B594-C2D6-4E04-942D-3B609B258981}|SistemaVentasPresentacion\\SistemaVentasPresentacion.csproj|solutionrelative:sistemaventaspresentacion\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6987B594-C2D6-4E04-942D-3B609B258981}|SistemaVentasPresentacion\\SistemaVentasPresentacion.csproj|c:\\users\\olsend\\source\\repos\\sistemaventas\\sistemaventaspresentacion\\frmcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6987B594-C2D6-4E04-942D-3B609B258981}|SistemaVentasPresentacion\\SistemaVentasPresentacion.csproj|solutionrelative:sistemaventaspresentacion\\frmcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6987B594-C2D6-4E04-942D-3B609B258981}|SistemaVentasPresentacion\\SistemaVentasPresentacion.csproj|c:\\users\\olsend\\source\\repos\\sistemaventas\\sistemaventaspresentacion\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6987B594-C2D6-4E04-942D-3B609B258981}|SistemaVentasPresentacion\\SistemaVentasPresentacion.csproj|solutionrelative:sistemaventaspresentacion\\frmventas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6987B594-C2D6-4E04-942D-3B609B258981}|SistemaVentasPresentacion\\SistemaVentasPresentacion.csproj|c:\\users\\olsend\\source\\repos\\sistemaventas\\sistemaventaspresentacion\\frmcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6987B594-C2D6-4E04-942D-3B609B258981}|SistemaVentasPresentacion\\SistemaVentasPresentacion.csproj|solutionrelative:sistemaventaspresentacion\\frmcompras.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{585B71DB-51EE-44B8-AEF0-67B9684F07CF}|CapaNegocio\\CapaNegocio.csproj|C:\\Users\\Olsend\\source\\repos\\SistemaVentas\\capanegocio\\cn_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{585B71DB-51EE-44B8-AEF0-67B9684F07CF}|CapaNegocio\\CapaNegocio.csproj|solutionrelative:capanegocio\\cn_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,95 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "mdProducto.cs",
-              "DocumentMoniker": "C:\\Users\\Olsend\\source\\repos\\SistemaVentas\\SistemaVentasPresentacion\\Modales\\mdProducto.cs",
-              "RelativeDocumentMoniker": "SistemaVentasPresentacion\\Modales\\mdProducto.cs",
-              "ToolTip": "C:\\Users\\Olsend\\source\\repos\\SistemaVentas\\SistemaVentasPresentacion\\Modales\\mdProducto.cs",
-              "RelativeToolTip": "SistemaVentasPresentacion\\Modales\\mdProducto.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAuwCkAAAANAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "CN_Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Olsend\\source\\repos\\SistemaVentas\\CapaNegocio\\CN_Cliente.cs",
+              "RelativeDocumentMoniker": "CapaNegocio\\CN_Cliente.cs",
+              "ToolTip": "C:\\Users\\Olsend\\source\\repos\\SistemaVentas\\CapaNegocio\\CN_Cliente.cs",
+              "RelativeToolTip": "CapaNegocio\\CN_Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T05:51:45.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T04:54:40.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Olsend\\source\\repos\\SistemaVentas\\CapaEntidad\\Cliente.cs",
+              "RelativeDocumentMoniker": "CapaEntidad\\Cliente.cs",
+              "ToolTip": "C:\\Users\\Olsend\\source\\repos\\SistemaVentas\\CapaEntidad\\Cliente.cs",
+              "RelativeToolTip": "CapaEntidad\\Cliente.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T04:54:36.618Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "mdCliente.cs",
-              "DocumentMoniker": "C:\\Users\\Olsend\\source\\repos\\SistemaVentas\\SistemaVentasPresentacion\\Modales\\mdCliente.cs",
-              "RelativeDocumentMoniker": "SistemaVentasPresentacion\\Modales\\mdCliente.cs",
-              "ToolTip": "C:\\Users\\Olsend\\source\\repos\\SistemaVentas\\SistemaVentasPresentacion\\Modales\\mdCliente.cs",
-              "RelativeToolTip": "SistemaVentasPresentacion\\Modales\\mdCliente.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAEwCkAAAAAAAAAAAAAAA==",
+              "Title": "CD_Cliente.cs",
+              "DocumentMoniker": "C:\\Users\\Olsend\\source\\repos\\SistemaVentas\\CapaDatos\\CD_Cliente.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\CD_Cliente.cs",
+              "ToolTip": "C:\\Users\\Olsend\\source\\repos\\SistemaVentas\\CapaDatos\\CD_Cliente.cs",
+              "RelativeToolTip": "CapaDatos\\CD_Cliente.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAKYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T05:45:34.174Z",
+              "WhenOpened": "2024-11-02T04:54:30.811Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "mdCliente.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Olsend\\source\\repos\\SistemaVentas\\SistemaVentasPresentacion\\Modales\\mdCliente.cs",
-              "RelativeDocumentMoniker": "SistemaVentasPresentacion\\Modales\\mdCliente.cs",
-              "ToolTip": "C:\\Users\\Olsend\\source\\repos\\SistemaVentas\\SistemaVentasPresentacion\\Modales\\mdCliente.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SistemaVentasPresentacion\\Modales\\mdCliente.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T05:35:24.008Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "frmVentas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Olsend\\source\\repos\\SistemaVentas\\SistemaVentasPresentacion\\frmVentas.cs",
-              "RelativeDocumentMoniker": "SistemaVentasPresentacion\\frmVentas.cs",
-              "ToolTip": "C:\\Users\\Olsend\\source\\repos\\SistemaVentas\\SistemaVentasPresentacion\\frmVentas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SistemaVentasPresentacion\\frmVentas.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T03:42:57.258Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmVentas.cs",
-              "DocumentMoniker": "C:\\Users\\Olsend\\source\\repos\\SistemaVentas\\SistemaVentasPresentacion\\frmVentas.cs",
-              "RelativeDocumentMoniker": "SistemaVentasPresentacion\\frmVentas.cs",
-              "ToolTip": "C:\\Users\\Olsend\\source\\repos\\SistemaVentas\\SistemaVentasPresentacion\\frmVentas.cs",
-              "RelativeToolTip": "SistemaVentasPresentacion\\frmVentas.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAIwCsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T05:07:47.391Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "frmCompras.cs",
-              "DocumentMoniker": "C:\\Users\\Olsend\\source\\repos\\SistemaVentas\\SistemaVentasPresentacion\\frmCompras.cs",
-              "RelativeDocumentMoniker": "SistemaVentasPresentacion\\frmCompras.cs",
-              "ToolTip": "C:\\Users\\Olsend\\source\\repos\\SistemaVentas\\SistemaVentasPresentacion\\frmCompras.cs",
-              "RelativeToolTip": "SistemaVentasPresentacion\\frmCompras.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAEwCUAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T05:22:32.623Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "frmCompras.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\Olsend\\source\\repos\\SistemaVentas\\SistemaVentasPresentacion\\frmCompras.cs",
-              "RelativeDocumentMoniker": "SistemaVentasPresentacion\\frmCompras.cs",
-              "ToolTip": "C:\\Users\\Olsend\\source\\repos\\SistemaVentas\\SistemaVentasPresentacion\\frmCompras.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SistemaVentasPresentacion\\frmCompras.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T04:19:42.895Z",
-              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }
